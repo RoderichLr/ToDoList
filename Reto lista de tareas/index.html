@@ -1,0 +1,34 @@
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lista tareas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer  src="js/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  
+    <div class="contenedor">
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4" > Lista de tareas</h1>
+      
+        <div class="principales"  id="principal" >
+      
+          <div >
+            <input type="text" class="form-control"  placeholder="Escriba su tarea" id="tareasUsuario"  />
+          </div>
+        <input type="button" class="btn btn-primary"  value="Agregar"  onclick="agregarTarea( )"  id="botonAgregar" />
+
+        </div>
+
+      </header>
+      <ul   class="list-group text-light to-dos"  id="listaElementos">
+      </ul>
+</body> 
+</html>
